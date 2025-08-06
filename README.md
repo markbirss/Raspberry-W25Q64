@@ -1,3 +1,13 @@
+# Luckfox Lyra
+
+sudo apt install gettext
+ 
+git clone https://github.com/WiringPi/WiringPi
+cd WiringPi
+./build debian
+ls debian-template/*deb
+sudo dpkg -i debian-template/wiringpi_3.16_armhf.deb
+
 # Raspberry-W25Q64
 
 SPI Flash Memory W25Q64 Access Library for RaspberryPi  
